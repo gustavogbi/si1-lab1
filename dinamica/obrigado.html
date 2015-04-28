@@ -5,6 +5,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="css/estilo.css" rel="stylesheet" />
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/script.js"></script>
   </head>
   <body class="obrigado">
   <div class="navbar">
@@ -16,12 +18,19 @@
   </div>
 </div>
 <div id="alinhar">
-  <h1> Obrigado! </h1>
-  <p>
-    <a class="btn" href="index.html">
-      Voltar
-    </a>
-  </p>
+  <h1>Parabéns</h1>
+  <h5>Você está matriculado na disciplina, agora diga quais assuntos você irá aprender, ou já aprendeu.</h5>
+  <table id="tabela"><tr><td valign="top">
+  <h3>Assuntos a serem vistos</h3>
+<input id= "Texto1" type="text" name="" value="">
+    <button id="Adicionar1" class="btn btn-success">Adicionar</button>
+<table id="list1"></table></td>
+
+<td valign="top">
+<h3>Assuntos aprendidos</h3>
+<input id= "Texto2" type="text" name="" value="">
+    <button id="Adicionar2" class="btn btn-success">Adicionar</button>
+<table id="list2"></table></td></tr></table>
 </div>
 </body>
 </html>
